@@ -22,7 +22,7 @@ function Header() {
         // Clear user data from local storage or Redux
         localStorage.removeItem('token'); // Adjust this if you're using another storage method
         dispatch(reset()); // Reset user state in Redux
-        navigate('/'); // Redirect to the login page
+        navigate('https://memoize-notes-app.vercel.app/'); // Redirect to the login page
         toast.success('Logged out successfully!'); // Optional: notify user
     };
 
