@@ -21,6 +21,7 @@ const login = async (data)=>{
 
 const logout = ()=>{
     localStorage.clear();
+    navigate('/');
 }
 
 const updateDP = async (data,token)=>{
