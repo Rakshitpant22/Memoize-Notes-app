@@ -3,7 +3,8 @@
     "builds": [
       { "src": "*.js", "use": "@vercel/node" }
     ],
-    "routes": [
+    "routes": [    { "src": "/api/(.*)", "dest": "https://memoize-notes-app-eu2q.vercel.app/" },
+
       {
         "src": "/(.*)",
         "dest": "/",
