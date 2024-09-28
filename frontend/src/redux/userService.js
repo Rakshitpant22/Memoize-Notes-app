@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_ENDPOINT = 'https://memoize-api.vercel.app/api/users/';
+const API_ENDPOINT = 'https://memoize-notes-app.onrender.com/api/users/';
 // const API_ENDPOINT = '/api/users/';
 
 const signup = async (data)=>{
