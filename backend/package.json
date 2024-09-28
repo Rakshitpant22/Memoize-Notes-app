@@ -5,7 +5,8 @@
   "description": "full stack notes app",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "serve": "node index.js"
   },
   "keywords": [
     "notes",
