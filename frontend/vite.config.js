@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   server: {
     proxy: {
-      "/api": "memoize-notes-app-eu2q.vercel.app"
+      "/api": "https://memoize-notes-app-eu2q.vercel.app/"
 ,
     }  
   } ,
