@@ -81,6 +81,11 @@ export const login = asyncHandler(async (req,res)=>{
     }
 });
 
+//logout
+export const logout = asyncHandler(async (req, res) => {
+    res.status(200).json({ message: "User logged out successfully." });
+});
+
 // delete user function
 export const deleteUser = asyncHandler(async (req,res)=>{
     const userNotes = await noteModel.find({user:req.user._id});
