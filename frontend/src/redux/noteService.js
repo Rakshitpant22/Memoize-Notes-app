@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_ENDPOINT = 'https://memoize-api.vercel.app/api/notes/';
+const API_ENDPOINT = 'https://memoize-notes-app.onrender.com/api/notes/';
 // const API_ENDPOINT = '/api/notes/';
 
 const getAll = async (token)=>{
