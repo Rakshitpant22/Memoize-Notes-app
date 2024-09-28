@@ -20,6 +20,7 @@ function Header() {
 
     const handleLogout = () => {
         // Clear user data from local storage or Redux
+        userService.logout();
         localStorage.removeItem('token'); // Adjust this if you're using another storage method
         dispatch(reset()); // Reset user state in Redux
         navigate('/'); // Redirect to the login page
