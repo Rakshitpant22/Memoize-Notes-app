@@ -8,7 +8,7 @@ This app is deploved on <b>Vercel</b>.
 To get started with Memoize, simply hop onto : [https://memoize-notes.vercel.app/](https://memoize-notes.vercel.app/)
 
 # Screenshots
-### Big Screens: 
+### Big Screens: --
 <div>
 <img src='frontend/src/assets/screenshots/1.png' alt="app logo" style="width:400px"/>
 <img src='frontend/src/assets/screenshots/4.png' alt="app logo" style="width:400px"/>
